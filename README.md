@@ -23,46 +23,6 @@ A simple **Task Tracker** application built with **MERN Stack** (MongoDB, Expres
 
 ---
 
-## 📦 Installation & Setup
-
-Follow these steps to set up and run the project locally.
-
-### 1. **Clone the Repository**
-
-```bash
-git clone https://github.com/your-username/task-tracker.git
-cd task-tracker
-```
-
-### **2. Backend Setup (Backend)**
-
-#### 1. Navigate to the backend folder: 
-
-```bash
-cd backend
-```
-#### 2. Start the backend server:
-
-```bash
-npm start
-```
-
-### **3. Frontend Setup (React App)**
-
-#### 1. Navigate to the frontend folder: 
-
-```bash
-cd ..
-cd frontend
-```
-#### 2. Start the backend server:
-
-```bash
-npm start
-```
-
----
-
 ### What’s Updated:
 - **Step-by-step Backend and Frontend setup** sections are more detailed and clear.
 - Instructions for navigating between directories (`cd ..`).
@@ -71,4 +31,4 @@ npm start
 ---
 
 ## 👤 Author
--[Paavalan Varathanathan]
+- [ Linthusan Palenthiran ]
