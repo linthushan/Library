@@ -1,0 +1,173 @@
+/* General styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Container for the image and form */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the left and right sections to stack on smaller screens */
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Left side image styles */
+.left-side {
+    flex: 0.7; /* Reduced the flex to make the image smaller */
+    background-color: #3498db;
+    min-height: 400px; /* Set a fixed min-height for the image container */
+    position: relative; /* Position relative to allow image sizing */
+    max-width: 600px; /* Ensure the image doesn't stretch too much on larger screens */
+}
+
+.form-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the space while maintaining aspect ratio */
+    position: absolute; /* Positions the image inside the container */
+    top: 0;
+    left: 0;
+}
+
+/* Form container */
+.form-container {
+    flex: 1.5;
+    padding: 40px;
+    max-width: 450px;
+    text-align: center;
+    position: relative; /* For proper stacking */
+    z-index: 1; /* Ensures the form is above the image */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.register-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.register-btn:hover {
+    background-color: #2980b9;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        min-height: 300px; /* Limit height on smaller screens */
+        max-width: 100%; /* Allow image to fit the container */
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input, textarea, button {
+        font-size: 16px;
+    }
+
+    button.register-btn {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .form-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input, textarea, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button.register-btn {
+        padding: 8px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+}
