@@ -1,34 +1,28 @@
-# 📋 Task Tracker Application
+#  Library Management System
 
-A simple **Task Tracker** application built with **MERN Stack** (MongoDB, Express, React, and Node.js). This project allows users to **add, view, update, and delete tasks** seamlessly.
-
----
-
-## 🚀 Features
-
-- ✅ **Add Tasks**: Add tasks with a title and description.
-- 📝 **Update Tasks**: Edit task details like title and description.
-- 📋 **View All Tasks**: Display all tasks in a clean list.
-- ❌ **Delete Tasks**: Remove tasks when they are no longer needed.
-- ⚡ **Real-Time Updates**: Automatically refresh the task list after any operation.
+The Library Management System (LMS) is a web-based application designed to streamline the management of library resources, including book. Built using PHP and MySQL, this system provides an intuitive and efficient solution for both librarians and library users. The main goal of this system is to automate and simplify everyday library operations such as managing books, add new books,delete books, update book , and manage users.
 
 ---
 
-## 🛠️ Tech Stack
+##  Features
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+  **manage books**: Comprehensive management of book details, including adding new books and removing obsolete records.
+  **user manage **:  Registration and maintenance of member records with easy access 
+  **View feedback**: Display all feedbacks in a clean list.
+  **Add book pdf **: to download
+  **Search : Users can search the library’s collection with various jonor for easy access to desired books.
+  **users: Managing user profiles, including registration, updating their information
+  
+
+---
+
+## Tech Stack
+
+- **Backend**:Php
+- **Database**:mysql
 - **Styling**: CSS
 
----
 
-### What’s Updated:
-- **Step-by-step Backend and Frontend setup** sections are more detailed and clear.
-- Instructions for navigating between directories (`cd ..`).
-- Made it beginner-friendly with proper commands and sequence.
-
----
 
 ## 👤 Author
 - [ Linthusan Palenthiran ]
